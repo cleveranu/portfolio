@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+.mainContainer{
+ 
+ 
+ height: 100%;
+ 
+ /* background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+ 
+}
+
+       
+.head {
+    padding-top: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+  }
+  .img{
+    /* flex:1; */
+   
+    display: block;
+    margin-left: 13px;
+    margin-right: 8px;
+
+
+    /* border-radius: 50%;
+    width: 200px;
+    height: 200px; */
+  }
+  .img1{
+    border: 8px double black;
+  }
+  .about{
+    margin-left: 9px;
+    /* flex:1; */
+    /* align-items: flex-start; */
+  }
+  
+  .b{
+    font-style: oblique;
+          font-style: oblique 10deg;
+          font-size: 75px;
+          padding-bottom: 1rem;
+  }
+  .name{
+          
+          font-weight: bold;
+          font-size:xx-large;
+          font-style:serif ;
+          font-style: oblique;
+          font-style: oblique 10deg;
+          padding-left: 5px;
+  }
+  .address{
+   
+    font-size: x-large;
+    padding-bottom: 1px;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+font-style: oblique 10deg;
+  }
+  /* .fa-solid fa-house{
+    padding-left: 10px;
+  }
+  .fa-solid{
+    padding-left: 2px;
+  } */
+  .phoneno{
+    
+    font-size: x-large;
+    padding-bottom: 1px;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    font-style: oblique 10deg;
+  }
+  .email-id{
+    
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    font-style: oblique 10deg;
+    padding-bottom: 3px;
+  }
+  /* .buton{
+    text-align: center;
+    padding: 19rem 0;
+    width: 8px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+
+
+
+  } */
+  .buton{
+     
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 43px;
+    }
+  
+  .intro1{
+    
+    font-size: xx-large;
+    font-weight: 10px;
+    font-family: serif;
+    padding: 16px;
+   text-shadow: 5px 5px 10px black;
+  }
+.myself{
+  /* padding-right: 1rem; */
+  padding-top: 3rem;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman';
+  font-style: italic;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.moreinfo{
+  padding-left: 1rem;;
+  font-size: large;
+  padding-top: 5px;
+  font-family:'Gulzar';
+}
+.detail{
+   
+   font-size: xx-large;
+   font-weight: 10px;
+   font-family: serif;
+   padding: 16px;
+   text-shadow: 5px 5px 10px black;
+}
+/* .hy{
+  border: 1px solid black;
+   width: 100%;
+} */
+/* .ten{
+  border: 1px solid black;
+}
+.twelve{
+  border: 1px solid black;
+}
+.btech{
+  border: 1px solid black;
+} */
+.head2{
+  font-size: xx-large;
+  font-weight: 10px;
+  font-family: serif;
+  padding: 16px;
+  text-shadow: 5px 5px 10px black;
+
+}
+.subskills{
+  font-family: 'Gulzar';
+  font-size: large;
+  font-weight: bolder;
+  
+}
+.proj2{
+  font-size: xx-large;
+  font-weight: 10px;
+  font-family: serif;
+  padding: 16px;
+  text-shadow: 5px 5px 10px black;
+}
+.proj3{
+
+}
+
+.subskills{
+  /* text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white; */
+}
+
+.org1{
+  font-size: xx-large;
+  font-weight: 10px;
+  font-family: serif;
+  padding: 16px;
+  text-shadow: 5px 5px 10px black;
+}
+.rs{
+  font-size: xx-large;
+   font-weight: 10px;
+   font-family: serif;
+   padding: 16px;
+   text-shadow: 5px 5px 10px black;
+}
+.awd{
+  font-size: xx-large;
+  font-weight: 10px;
+  font-family: serif;
+  padding: 16px;
+  text-shadow: 5px 5px 10px black;
+}
+.con{
+  font-size: xx-large;
+   font-weight: 10px;
+   font-family: serif;
+   padding: 16px;
+   text-shadow: 5px 5px 10px black;
+  text-align: center;
+}
+.txt4{
+  padding-left: 1rem;;
+  font-size: large;
+  padding-top: 5px;
+  font-family:'Gulzar';
+  text-align: center;
+}
+.link{
+  text-align: center;
+  padding-top: 3px;
+}
+.button{
+  padding: 1rem 0;
+  text-align: center;
+}
+.n1{
+  padding-left: 5px;
+  font-size: x-large;
+  padding-bottom: 2px;
+ 
+  font-family: 'Gulzar';
+}
+.n2{
+  padding-left: 5px;
+  font-size: x-large;
+  padding-bottom: 2px;
+ 
+  font-family: 'Gulzar';
+}
+.n3{
+  padding-left: 5px;
+  font-size: x-large;
+  padding-bottom: 2px;
+ 
+  font-family: 'Gulzar';
+}
+.k1{
+  padding-left: 5px;
+  font-size: x-large;
+  padding-bottom: 2px;
+ 
+  font-family: 'Gulzar';
+}
+.k2{
+  padding-left: 5px;
+  font-size: x-large;
+  padding-bottom: 2px;
+ 
+  font-family: 'Gulzar';
+}
+.r1{
+  padding: 10px 10px;
+ display: flex;
+ flex-direction: column;
+ font-family: 'Gulzar';
+ font-size: 20px;
+}
+.social{
+  align-items: center;
+  justify-content: center;
+}
+.button_button{
+  padding-left: 5px;
+}
+.f{
+  width: 48%; 
+  background-color: yellowgreen;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.society{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.description{
+  padding-left: 20px;
+  font-size: x-large;
+  padding-bottom: 12px;
+ 
+  font-family: 'Gulzar';
+}
+.gif{
+  padding-left: 120px;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto 20% ;
+  gap: 10px;
+ 
+  padding: 10px;
+}
+
+.grid-container > div {
+ 
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+
